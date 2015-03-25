@@ -4,9 +4,7 @@ echo "-----Liferay custom buildpack running-----"
 cd $1
 # download the binary (-O) silently (-s)
 echo "-----Downloading the Liferay binary-----"
-curl https://www.dropbox.com/s/2jemvxr1lgb2n1w/liferay-portal-tomcat-6.2-ce-ga3-20150103155803016.zip?dl=0 -s -O -ssl3
 # make a directory to untar (like unzip) the binary
 mkdir -p Liferay
 # untar the binary to the directory we want
-tar -C Liferay -xvf liferay-portal-tomcat-6.2-ce-ga3-20150103155803016.zip
 #Do something
