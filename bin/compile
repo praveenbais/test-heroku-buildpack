@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+echo "-----&gt; My Custom BuildPack running"
+# change to the the BUILD_DIR ($1)
+cd $1
+# download the binary (-O) silently (-s)
+curl https://www.dropbox.com/sh/70fqb5ivo337it2/AACzTTCztRfvrNzZcrPs7l6Ka?dl=0 -s -O -ssl3
+# make a directory to untar (like unzip) the binary
+mkdir -p vendor/mupdf
+# untar the binary to the directory we want
+#Do something
