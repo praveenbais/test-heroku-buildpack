@@ -1,3 +1,3 @@
 #!/usr/bin/env bash
-echo "MuPDF 1.3"
+echo $PORT
 exit 0
