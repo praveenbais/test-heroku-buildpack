@@ -5,6 +5,7 @@ cd $1
 # download the binary (-O) silently (-s)
 echo "-----Downloading the Liferay binary-----"
 # make a directory to untar (like unzip) the binary
-mkdir -p Liferay
+echo "-----Port used-----"
+echo $PORT
 # untar the binary to the directory we want
 #Do something
